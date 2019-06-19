@@ -591,6 +591,8 @@ public class ServerMock implements Server
 	{
 		return playerList.getMaxPlayers();
 	}
+
+	public void setMaxPlayers(int maxPlayers) { playerList.setMaxPlayers(maxPlayers); }
 	
 	@Override
 	public Set<String> getIPBans()
