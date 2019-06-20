@@ -115,7 +115,7 @@ public class PlayerMock extends EntityMock implements Player
 		if (Bukkit.getWorlds().isEmpty())
 			MockBukkit.getMock().addSimpleWorld("world");
 		
-		setLocation(Bukkit.getWorlds().get(0).getSpawnLocation().clone());
+		setLocation(MockBukkit.getMock().getWorlds().get(0).getSpawnLocation().clone());
 		closeInventory();
 	}
 	
