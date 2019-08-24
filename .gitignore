@@ -7,6 +7,7 @@
 /bin/
 /build/
 /*.jar
+/target
 
 # Ignore server folder
 /server
@@ -18,3 +19,4 @@
 #IDE Specific
 /out
 *.iml
+dependency-reduced-pom.xml
